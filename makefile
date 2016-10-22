@@ -22,7 +22,8 @@ JFLAGS = -g -d $(BINDIR)
 all: HangmanCanvas.class \ 
 	 HangmanLexicon.class \
 	 Hangman.class \
-	 Play.class
+	 Play.class \
+	 SimpleAI.java \
 
 clean:
 	@echo "Removing class files..."
